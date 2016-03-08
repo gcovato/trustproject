@@ -36,6 +36,16 @@ Organization
     legalName
     memberOf (trust project for example etc. as ProgramMembership)
 Person
-    name
+    givenName
+    familyName
     jobTitle
-    
+    email (?)
+    memberOf (ProgramMembership - "codice di condotta" affiliation)
+    award
+    globalLocationNumber (to set when the article was written.)
+ProgramMembership (reference of memberOf)
+    hostingOrganization (Organization)
+    membershipNumber
+    programName
+    image (ImageObject)
+    url (URL)
