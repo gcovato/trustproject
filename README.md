@@ -19,5 +19,7 @@ limitations under the License.
 ## FOLDERS
 
 screenshots - use this folder to upload web pages mockups before to create the test version
+
 spec - should contain all docs where is explained the reason of any component included in the project
+
 html - test web pages container
