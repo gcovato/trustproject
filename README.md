@@ -15,3 +15,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 -->
+
+FOLDERS
+
+screenshots - use this folder to upload web pages mockups before to create the test version
+spec - should contain all docs where is explained the reason of any component included in the project
+html - test web pages container
