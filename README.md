@@ -1,4 +1,4 @@
-TRUSTPROJECT
+# TRUSTPROJECT
 
 <!---
 Copyright 2015 The TRUSTPROJECT Authors and Contributors. All Rights Reserved.
@@ -16,7 +16,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 
-FOLDERS
+## FOLDERS
 
 screenshots - use this folder to upload web pages mockups before to create the test version
 spec - should contain all docs where is explained the reason of any component included in the project
