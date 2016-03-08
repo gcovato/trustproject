@@ -1,8 +1,8 @@
-JSON-LD TAGS
+# JSON-LD TAGS
 
 Sections of JSON Tags
 
-NewsArticle
+# NewsArticle
     mainEntityOfPage
     headline
     keywords
@@ -23,10 +23,10 @@ NewsArticle
     contributor (person)
     citation (CreativeWork)
     commentCount
-MediaObject
+# MediaObject
     +CreativeWorks
     associatedArticle
-Organization
+# Organization
     name
     logo (ImageObject)
     globalLocationNumber
@@ -35,7 +35,7 @@ Organization
     award
     legalName
     memberOf (trust project for example etc. as ProgramMembership)
-Person
+# Person
     givenName
     familyName
     jobTitle
@@ -43,7 +43,7 @@ Person
     memberOf (ProgramMembership - "codice di condotta" affiliation)
     award
     globalLocationNumber (to set when the article was written.)
-ProgramMembership (reference of memberOf)
+# ProgramMembership (reference of memberOf)
     hostingOrganization (Organization)
     membershipNumber
     programName
