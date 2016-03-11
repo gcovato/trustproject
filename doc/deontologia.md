@@ -1,6 +1,7 @@
 # DEONTOLOGIA SOTTOSCRITTA DAI GIORNALISTI 
 
 Il giornalista:
+
 1.	difende il diritto all’informazione e la libertà di opinione di ogni persona; per questo ricerca, raccoglie, elabora e diffonde con la maggiore accuratezza possibile ogni dato o notizia di pubblico interesse secondo la verità sostanziale dei fatti;
 
 2.	rispetta i diritti fondamentali delle persone e osserva le norme di legge poste a loro salvaguardia;
