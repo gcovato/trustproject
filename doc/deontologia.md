@@ -228,21 +228,21 @@ Il giornalista:
 
 2.	non presta il nome, la voce, l’immagine per iniziative pubblicitarie. Sono consentite, a titolo gratuito e previa comunicazione scritta all’Ordine di appartenenza, analoghe prestazioni per iniziative pubblicitarie volte a fini sociali, umanitari, culturali, religiosi, artistici, sindacali.
 
-2. Il giornalista s’impegna affinché la pubblicazione di sondaggi attraverso i media contenga sempre:
+3. Il giornalista s’impegna affinché la pubblicazione di sondaggi attraverso i media contenga sempre:
 
-2.1.	soggetto che ha realizzato il sondaggio e, se realizzato con altri, le collaborazioni di cui si è avvalso;
+3.1.	soggetto che ha realizzato il sondaggio e, se realizzato con altri, le collaborazioni di cui si è avvalso;
 
-2.2.	criteri seguiti per l'individuazione del campione;
+3.2.	criteri seguiti per l'individuazione del campione;
 
-2.3.	metodo di raccolta delle informazioni e di elaborazione dei dati;
+3.3.	metodo di raccolta delle informazioni e di elaborazione dei dati;
 
-2.4.	numero delle persone interpellate e universo di riferimento;
+3.4.	numero delle persone interpellate e universo di riferimento;
 
-2.5.	il numero delle domande rivolte;
+3.5.	il numero delle domande rivolte;
 
-2.6.	percentuale delle persone che hanno risposto a ciascuna domanda;
+3.6.	percentuale delle persone che hanno risposto a ciascuna domanda;
 
-2.7.	date in cui è stato realizzato il sondaggio.
+3.7.	date in cui è stato realizzato il sondaggio.
  
 ## Doveri in tema di informazione economica
 
