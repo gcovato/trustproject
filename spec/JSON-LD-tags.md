@@ -18,6 +18,7 @@ Sections of JSON Tags
     copyrightYear
     copyrightHolder (Organization)
     publisher (Organization)
+    accountablePerson (person)
     author (person)
     contributor (person)
     citation (CreativeWork)
