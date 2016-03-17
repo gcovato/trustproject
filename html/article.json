@@ -5,12 +5,11 @@
     "headline": "Title",
     "keywords": "keyword1, keyword2,keyword3",
     "image": {
-
-			"@type": "ImageObject",
-			"url": "url.to.article.image",
-			"width": 1024,
-			"height": 576
-	},
+        "@type": "ImageObject",
+        "url": "url.to.article.image",
+        "width": 1024,
+        "height": 576
+    },
     "dateCreated": "2016-03-07T11:50:55.200Z",
     "dateModified": "2016-03-07T11:50:55.200Z",
     "datePublished": "2016-03-07T11:50:55.200Z",
@@ -18,30 +17,31 @@
     "printSection": "mondo",
     "articleSection": "cultura",
     "PublishingPrinciples": "https://url.to.priciples.doc.html",
-    "license":  "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
     "copyrightYear": 2016,
     "copyrightHolder": {
         "@type": "Organization",
         "name": "Nome",
+        "url": "",
         "logo": {
-                "@type": "ImageObject",
-				"url": "https://www.domain.it/img/logo.png",
-				"width": 227,
-				"height": 40
-        } ,
+            "@type": "ImageObject",
+            "url": "https://www.domain.it/img/logo.png",
+            "width": 227,
+            "height": 40
+        },
         "Location": {
             "@type": "Place",
             "photo": {
                 "@type": "ImageObject",
                 "url": "https://www.domain.it/img/place.png",
-			 "width": 227,
-			 "height": 40
-            } ,
+                "width": 227,
+                "height": 40
+            },
             "geo": {
                 "@type": "GeoShape",
                 "line": "",
                 "circle": "",
-                "polygon":"",
+                "polygon": "",
             },
             "hasMap": "http://www.doman.it/path/to/the/map",
             "address": "address",
@@ -52,35 +52,111 @@
         "legalName": "registered company name",
         "memberOf": {
             "@type": "ProgramMembership",
-            "hostingOrganization":{
+            "hostingOrganization": {
                 "@type": "Organization",
             },
             "programName": "Trust Project",
             "membershipNumber": "123456789abcd123456"
         };
     },
-         "publisher": {
-              "@type": "Organization",
-         },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Nome",
+        "url": "",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.domain.it/img/logo.png",
+            "width": 227,
+            "height": 40
+        },
+        "Location": {
+            "@type": "Place",
+            "photo": {
+                "@type": "ImageObject",
+                "url": "https://www.domain.it/img/place.png",
+                "width": 227,
+                "height": 40
+            },
+            "geo": {
+                "@type": "GeoShape",
+                "line": "",
+                "circle": "",
+                "polygon": "",
+            },
+            "hasMap": "http://www.doman.it/path/to/the/map",
+            "address": "address",
+        },
+        "foundingDate": "2016-03-07",
+        "numberOfEmployees": 0,
+        "award": "",
+        "legalName": "registered company name",
+        "memberOf": {
+            "@type": "ProgramMembership",
+            "hostingOrganization": {
+                "@type": "Organization",
+                "name": "Nome",
+                "url": "",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.domain.it/img/logo.png",
+                    "width": 227,
+                    "height": 40
+                },
+
+            },
+            "programName": "Trust Project",
+            "membershipNumber": "123456789abcd123456"
+        };
+    },
     "author": {
         "@type": "Person",
-          "givenName": "",
-    "familyName": "",
-    "jobTitle": "",
-    "email": "",
-    memberOf: {
-        "@type": "ProgramMembership",
-        "hostingOrganization":{
+        "givenName": "",
+        "familyName": "",
+        "jobTitle": "",
+        "email": "",
+        "url": "",
+        memberOf: {
+            "@type": "ProgramMembership",
+            "hostingOrganization": {
                 "@type": "Organization",
+                "name": "Nome",
+                "url": "",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.domain.it/img/logo.png",
+                    "width": 227,
+                    "height": 40
+                },
             },
-        "programName": "codice di condotta",
-        "membershipNumber": "123456789abcd123456"
+            "programName": "codice di condotta",
+            "membershipNumber": "123456789abcd123456"
         },
-    "award";""
-    globalLocationNumber (to set when the article was written.)
+        "award": "",
     },
-    "contributor":  {
+    "contributor": {
         "@type": "Person",
+                "givenName": "",
+        "familyName": "",
+        "jobTitle": "",
+        "email": "",
+        "url": "",
+        memberOf: {
+            "@type": "ProgramMembership",
+            "hostingOrganization": {
+                "@type": "Organization",
+                "name": "Nome",
+                "url": "",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.domain.it/img/logo.png",
+                    "width": 227,
+                    "height": 40
+                },
+            },
+            "programName": "codice di condotta",
+            "membershipNumber": "123456789abcd123456"
+        },
+        "award": "",
 
     },
     "citation": {
@@ -88,7 +164,4 @@
 
     },
     "commentCount": 0,
-    },
-
-
-
+}
