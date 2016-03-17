@@ -8,7 +8,6 @@ Sections of JSON Tags
     keywords
     image (ImageObject)
     dateCreated
-    dateModified
     datePublished
     dateModified
     printPage - for aticles published on newspaper
@@ -29,11 +28,12 @@ Sections of JSON Tags
 ## Organization
     name
     logo (ImageObject)
-    globalLocationNumber
+    Location (Place)
     foundingDate
     numberOfEmployees
     award
     legalName
+    sameAs (list of URLS)
     memberOf (trust project for example etc. as ProgramMembership)
 ## Person
     givenName
@@ -42,7 +42,8 @@ Sections of JSON Tags
     email (?)
     memberOf (ProgramMembership - "codice di condotta" affiliation)
     award
-    globalLocationNumber (to set when the article was written.)
+    sameAs (list of URLS)
+    Location (Place.)
 ## ProgramMembership (reference of memberOf)
     hostingOrganization (Organization)
     membershipNumber
