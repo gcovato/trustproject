@@ -6,7 +6,7 @@
     "keywords": "keyword1, keyword2,keyword3",
     "image": {
         "@type": "ImageObject",
-        "url": "url.to.article.image",
+        "url": "http://url.article.com/image",
         "width": 1024,
         "height": 576
     },
@@ -21,7 +21,9 @@
     "copyrightYear": 2016,
     "copyrightHolder": {
         "@type": "Organization",
-        "name": "Nome",
+        "name": "Name",
+        "parentOrganization": "Parent company",
+        "subOrganization":"subsidary company",  
         "url": "",
         "logo": {
             "@type": "ImageObject",
@@ -31,6 +33,7 @@
         },
         "Location": {
             "@type": "Place",
+            "name": "name of the place",
             "photo": {
                 "@type": "ImageObject",
                 "url": "https://www.domain.it/img/place.png",
@@ -41,10 +44,10 @@
                 "@type": "GeoShape",
                 "line": "",
                 "circle": "",
-                "polygon": "",
+                "polygon": ""
             },
             "hasMap": "http://www.doman.it/path/to/the/map",
-            "address": "address",
+            "address": "address"
         },
         "foundingDate": "2016-03-07",
         "numberOfEmployees": 0,
@@ -53,15 +56,17 @@
         "memberOf": {
             "@type": "ProgramMembership",
             "hostingOrganization": {
-                "@type": "Organization",
+                "@type": "Organization"
             },
             "programName": "Trust Project",
             "membershipNumber": "123456789abcd123456"
-        };
+        }
     },
     "publisher": {
         "@type": "Organization",
-        "name": "Nome",
+        "name": "Name",
+        "parentOrganization": "Parent company",
+        "subOrganization":"subsidary company",  
         "url": "",
         "logo": {
             "@type": "ImageObject",
@@ -71,6 +76,7 @@
         },
         "Location": {
             "@type": "Place",
+            "name": "name of the place",
             "photo": {
                 "@type": "ImageObject",
                 "url": "https://www.domain.it/img/place.png",
@@ -81,10 +87,10 @@
                 "@type": "GeoShape",
                 "line": "",
                 "circle": "",
-                "polygon": "",
+                "polygon": ""
             },
             "hasMap": "http://www.doman.it/path/to/the/map",
-            "address": "address",
+            "address": "address"
         },
         "foundingDate": "2016-03-07",
         "numberOfEmployees": 0,
@@ -94,74 +100,80 @@
             "@type": "ProgramMembership",
             "hostingOrganization": {
                 "@type": "Organization",
-                "name": "Nome",
+                "name": "Name",
                 "url": "",
                 "logo": {
                     "@type": "ImageObject",
                     "url": "https://www.domain.it/img/logo.png",
                     "width": 227,
                     "height": 40
-                },
+                }
 
             },
             "programName": "Trust Project",
             "membershipNumber": "123456789abcd123456"
-        };
+        }
     },
     "author": {
+        "@type": "Person",
+        "name": "name",
+        "givenName": "",
+        "familyName": "",
+        "jobTitle": "",
+        "email": "",
+        "url": "",
+        "memberOf": {
+            "@type": "ProgramMembership",
+            "hostingOrganization": {
+                "@type": "Organization",
+                "name": "Nome",
+                "parentOrganization": "Parent company",
+                "subOrganization":"subsidary company",  
+                "url": "",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.domain.it/img/logo.png",
+                    "width": 227,
+                    "height": 40
+                }
+            },
+            "programName": "codice di condotta",
+            "membershipNumber": "123456789abcd123456"
+        },
+        "award": ""
+    },
+    "contributor": {
         "@type": "Person",
         "givenName": "",
         "familyName": "",
         "jobTitle": "",
         "email": "",
         "url": "",
-        memberOf: {
+        "memberOf": {
             "@type": "ProgramMembership",
             "hostingOrganization": {
                 "@type": "Organization",
                 "name": "Nome",
+                "parentOrganization": "Parent company",
+                "subOrganization":"subsidary company",  
                 "url": "",
                 "logo": {
                     "@type": "ImageObject",
                     "url": "https://www.domain.it/img/logo.png",
                     "width": 227,
                     "height": 40
-                },
+                }
             },
             "programName": "codice di condotta",
             "membershipNumber": "123456789abcd123456"
         },
-        "award": "",
-    },
-    "contributor": {
-        "@type": "Person",
-                "givenName": "",
-        "familyName": "",
-        "jobTitle": "",
-        "email": "",
-        "url": "",
-        memberOf: {
-            "@type": "ProgramMembership",
-            "hostingOrganization": {
-                "@type": "Organization",
-                "name": "Nome",
-                "url": "",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "https://www.domain.it/img/logo.png",
-                    "width": 227,
-                    "height": 40
-                },
-            },
-            "programName": "codice di condotta",
-            "membershipNumber": "123456789abcd123456"
-        },
-        "award": "",
+        "award": ""
 
     },
     "citation": {
-        "@type": "CreativeWork",
+        "@type": "CreativeWork"
 
     },
-    "commentCount": 0,
+    "discussionUrl": "https://acme.com/article/discussion",
+    "commentCount": 0
 }
