@@ -10,8 +10,8 @@ Sections of JSON Tags
     dateCreated
     datePublished
     dateModified
-    printPage - for aticles published on newspaper
-    printSection - for aticles published on newspaper
+    printPage - for articles published on newspaper
+    printSection - for articles published on newspaper
     articleSection
     PublishingPrinciples (url)
     license (url)
