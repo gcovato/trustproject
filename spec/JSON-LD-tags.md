@@ -35,7 +35,9 @@ Sections of JSON Tags
     award
     legalName
     sameAs (list of URLS)
-    memberOf (trust project for example etc. as ProgramMembership)
+    memberOf (trust project, LENA for example etc. as ProgramMembership)
+    parentOrganization
+    subOrganization
 ## Person
     givenName
     familyName
