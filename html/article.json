@@ -23,7 +23,6 @@
         "@type": "Organization",
         "name": "Name",
         "parentOrganization": "Parent company",
-        "subOrganization":"subsidary company",  
         "url": "",
         "logo": {
             "@type": "ImageObject",
@@ -56,7 +55,16 @@
         "memberOf": {
             "@type": "ProgramMembership",
             "hostingOrganization": {
-                "@type": "Organization"
+                "@type": "Organization",
+                "name": "Name",
+                "url": "",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.domain.it/img/logo.png",
+                    "width": 227,
+                    "height": 40
+                }
+
             },
             "programName": "Trust Project",
             "membershipNumber": "123456789abcd123456"
@@ -66,7 +74,6 @@
         "@type": "Organization",
         "name": "Name",
         "parentOrganization": "Parent company",
-        "subOrganization":"subsidary company",  
         "url": "",
         "logo": {
             "@type": "ImageObject",
@@ -127,8 +134,32 @@
             "hostingOrganization": {
                 "@type": "Organization",
                 "name": "Nome",
-                "parentOrganization": "Parent company",
-                "subOrganization":"subsidary company",  
+                "url": "",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.domain.it/img/logo.png",
+                    "width": 227,
+                    "height": 40
+                }
+            },
+            "programName": "codice di condotta",
+            "membershipNumber": "123456789abcd123456"
+        },
+        "award": ""
+    },
+    "editor": {
+        "@type": "Person",
+        "name": "name",
+        "givenName": "",
+        "familyName": "",
+        "jobTitle": "",
+        "email": "",
+        "url": "",
+        "memberOf": {
+            "@type": "ProgramMembership",
+            "hostingOrganization": {
+                "@type": "Organization",
+                "name": "Nome",
                 "url": "",
                 "logo": {
                     "@type": "ImageObject",
@@ -154,8 +185,6 @@
             "hostingOrganization": {
                 "@type": "Organization",
                 "name": "Nome",
-                "parentOrganization": "Parent company",
-                "subOrganization":"subsidary company",  
                 "url": "",
                 "logo": {
                     "@type": "ImageObject",
@@ -171,7 +200,14 @@
 
     },
     "citation": {
-        "@type": "CreativeWork"
+        "@type": "CreativeWork",
+        "author": {
+            "@type": "Person",
+            "name": "name",
+            "jobTitle": "",
+        },
+        "url": "http://url.com",
+        "fileFormat": "application/pdf"
 
     },
     "discussionUrl": "https://acme.com/article/discussion",
